@@ -1,6 +1,6 @@
 # docker-graalvm-maven
 
-A docker image for [GraalVM](https://www.graalvm.org) and [Maven](http://maven.apache.org), which is basing on Graalvm official [graalvm-ce]([graalvm-ce](https://www.graalvm.org/22.1/docs/getting-started/container-images/)) image.
+A docker image for [GraalVM](https://www.graalvm.org) and [Maven](http://maven.apache.org), which is basing on Graalvm official [graalvm-ce](https://www.graalvm.org/22.1/docs/getting-started/container-images/) image.
 
 The images are multi-arch (`aarch64` or `amd64` depending on the host architecture). 
 
