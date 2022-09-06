@@ -1,4 +1,4 @@
-# docker-graalvm-maven ![example workflow](https://github.com/apotitech/docker-graalvm-maven/actions/workflows/build-image.yaml/badge.svg)
+# docker-graalvm-maven
 
 A docker image for [GraalVM](https://www.graalvm.org) and [Maven](http://maven.apache.org), which is basing on Graalvm official [graalvm-ce](graalvm-ce) image.
 
@@ -31,7 +31,7 @@ docker pull addozhang/graalvm-maven:java17-21.3
 ## Run
 
 ```shell
-docker run --rm addozhang/graalvm-maven:java17-21.3
+docker run --rm apotitech/graalvm-maven:java17-21.3
 openjdk 17.0.1 2021-10-19
 OpenJDK Runtime Environment GraalVM CE 21.3.0 (build 17.0.1+12-jvmci-21.3-b05)
 OpenJDK 64-Bit Server VM GraalVM CE 21.3.0 (build 17.0.1+12-jvmci-21.3-b05, mixed mode, sharing)
